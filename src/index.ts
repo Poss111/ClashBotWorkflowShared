@@ -11,4 +11,5 @@ export interface EventPayload {
     url: string,
     payload: any,
     event: EVENT_TYPE
+    uuid: string
 }
