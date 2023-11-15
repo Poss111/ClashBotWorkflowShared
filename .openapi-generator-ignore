@@ -1,0 +1,10 @@
+# Ignore all files in the api directory
+*/apis/*
+
+# Ignore specific files
+README.md
+.gitignore
+.openapi-generator-ignore
+*/runtime.ts
+
+*.sh
