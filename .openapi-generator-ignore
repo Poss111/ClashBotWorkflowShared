@@ -5,6 +5,5 @@
 README.md
 .gitignore
 .openapi-generator-ignore
-*/runtime.ts
 
 *.sh
