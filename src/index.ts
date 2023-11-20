@@ -2,6 +2,7 @@
 /* eslint-disable */
 export * from './runtime';
 export * from './models/index';
+export * from './events/index';
 
 export const enum EVENT_TYPE {
     CREATE_TEAM = 'CREATE_TEAM',
