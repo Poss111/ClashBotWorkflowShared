@@ -13,6 +13,11 @@ export const enum EVENT_TYPE {
     DELETE_TENTATIVE_QUEUE = 'DELETE_TENTATIVE_QUEUE'
 };
 
+export const enum SUBSCRIPTION_TYPE {
+    WATCH_ALL = 'WATCH_ALL',
+    ERROR_ONLY = 'ERROR_ONLY',
+}
+
 export interface EventPayload {
     url: string,
     payload: any,
