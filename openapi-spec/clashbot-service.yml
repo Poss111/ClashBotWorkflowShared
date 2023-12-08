@@ -383,6 +383,17 @@ components:
         totalTime:
           description: The total time the process took in milliseconds
           type: string
+    RequestWrapper:
+      description: A wrapper for the request body to be used in the API
+      type: object
+      properties:
+        uuid:
+          description: The unique identifier for the request
+          type: string
+        body:
+          description: The request body
+          type: object
+          additionalProperties: true
   parameters:
     AuditHeaderParam:
       name: x-caused-by

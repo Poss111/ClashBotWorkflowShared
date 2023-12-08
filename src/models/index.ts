@@ -11,6 +11,7 @@ export * from './EventType';
 export * from './ModelError';
 export * from './Player';
 export * from './PositionDetails';
+export * from './RequestWrapper';
 export * from './Role';
 export * from './Server';
 export * from './Servers';

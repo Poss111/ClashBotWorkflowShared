@@ -24,3 +24,9 @@ export interface EventPayload {
     event: EVENT_TYPE
     uuid: string
 }
+
+export const enum TABLE_TYPES {
+    TEAM = 'TEAM',
+    TENTATIVE_QUEUE = 'TENTATIVE_QUEUE',
+    TOURNAMENT = 'TOURNAMENT',
+}
